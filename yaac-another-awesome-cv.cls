@@ -84,8 +84,6 @@
 \RequirePackage{fancyhdr}
 \RequirePackage{ifthen}
 
-\setdefaultlanguage[variant=american]{english}
-
 
 % Define default accent colors
 \definecolor{basecolor}{HTML}{000066}       %BLUE
