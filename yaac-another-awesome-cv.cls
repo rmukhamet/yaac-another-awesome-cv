@@ -66,7 +66,7 @@
 
 % Dependences
 %A Few Useful Packages
-\RequirePackage[english,russian]{babel}
+\RequirePackage[english]{babel}
 \RequirePackage{fontspec} 					                 % for loading fonts
 \RequirePackage{url,parskip} 	    % other packages for formatting
 \RequirePackage[usenames,dvipsnames]{xcolor}
