@@ -66,7 +66,7 @@
 
 % Dependences
 %A Few Useful Packages
-\RequirePackage[english,french]{babel}
+\RequirePackage[english,russian]{babel}
 \RequirePackage{fontspec} 					                 % for loading fonts
 \RequirePackage{url,parskip} 	    % other packages for formatting
 \RequirePackage[usenames,dvipsnames]{xcolor}
@@ -83,6 +83,8 @@
 \RequirePackage[skins]{tcolorbox}
 \RequirePackage{fancyhdr}
 \RequirePackage{ifthen}
+
+\setdefaultlanguage[variant=american]{english}
 
 
 % Define default accent colors
@@ -252,7 +254,7 @@
 
 % Render author's linked-in (optional)
 % Usage: \linkedin{<linked-in-nick>}
-\newcommand*{\linkedin}[1]{\sociallink{\linkedinSymbol}{http://www.linkedin.com/in/#1/fr}{linkedin.com/in/#1}}
+\newcommand*{\linkedin}[1]{\sociallink{\linkedinSymbol}{http://www.linkedin.com/in/#1}{linkedin.com/in/#1}}
 
 % Render author's viadeo(optional)
 % Usage: \viadeo{<viadeo-nick>}
